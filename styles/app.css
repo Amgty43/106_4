@@ -1,0 +1,23 @@
+html, body{
+    margin:0%
+}
+h1 {
+    color: azure;
+    background-color: black;
+    text-align: center;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    height: calc(100vh - 37px);
+}
+
+#list {
+    background-color: aquamarine;
+    flex: 2;
+}
+#form {
+    background-color: blueviolet;
+    flex: 2;
+}
